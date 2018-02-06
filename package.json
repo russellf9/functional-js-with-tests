@@ -1,0 +1,33 @@
+{
+  "name": "fp-2",
+  "version": "1.0.0",
+  "description": "Testing ES6 FP with Jest",
+  "main": "app.js",
+  "dependencies": {
+    "accounting": "^0.4.1",
+    "lodash": "^4.17.4",
+    "lodash-fp": "^0.10.4",
+    "moment": "^2.19.4",
+    "node-fetch": "^1.7.3",
+    "ramda": "^0.25.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/russellf9/functional-js-with-tests.git"
+  },
+  "keywords": [
+    "es6",
+    "test"
+  ],
+  "author": "russell@factornine.co.uk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/russellf9/functional-js-with-tests/issues"
+  },
+  "homepage": "https://github.com/russellf9/functional-js-with-tests#readme"
+}
