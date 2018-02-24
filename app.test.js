@@ -49,11 +49,11 @@ describe('Person API', async () => {
 
 
   // chained map
-  test('Should have ten counties, the last will be `west yorkshire` (using chained map functions)', () => {
-    const counties = people.map(location).map(county).sort();
-    expect(counties.length).toEqual(10);
-    expect(counties[9]).toEqual('west yorkshire');
-  });
+    test.only('Should have ten counties, the last will be `west yorkshire` (using chained map functions)', () => {
+      const counties = people.map(location).map(county).sort();
+      expect(counties.length).toEqual(10);
+      expect(counties[9]).toEqual('west yorkshire');
+    });
 
 
   // using reduce

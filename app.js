@@ -3,7 +3,6 @@ const fetch = require('node-fetch');
 
 const stringify = x => { console.log(JSON.stringify(x, null, 2))}
 
-// const num = 100
 
 const getURL = (num) => { return  `https://randomuser.me/api/?results=${num}&nat=gb&seed=foobar-99`}
 
